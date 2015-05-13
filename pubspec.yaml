@@ -1,0 +1,6 @@
+name: tekartik_bootstrap_asset
+description: Bootstrap for dart
+version: 3.2.0
+dependencies:
+  tekartik_jquery_asset:
+    path: ../tekartik_jquery_asset.dart
