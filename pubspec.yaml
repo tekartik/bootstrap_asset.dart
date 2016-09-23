@@ -4,3 +4,6 @@ version: 3.2.0
 dev_dependencies:
   tekartik_jquery_asset:
     path: ../tekartik_jquery_asset.dart
+dependency_overrides:
+  tekartik_jquery_asset:
+    path: ../tekartik_jquery_asset.dart
