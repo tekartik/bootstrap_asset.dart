@@ -3,7 +3,7 @@ description: Bootstrap for dart
 version: 3.2.0
 dev_dependencies:
   tekartik_jquery_asset:
-    path: ../tekartik_jquery_asset.dart
-dependency_overrides:
-  tekartik_jquery_asset:
-    path: ../tekartik_jquery_asset.dart
+    git: git://github.com/tekartik/jquery_asset.dart
+#dependency_overrides:
+#  tekartik_jquery_asset:
+#    path: ../tekartik_jquery_asset.dart
