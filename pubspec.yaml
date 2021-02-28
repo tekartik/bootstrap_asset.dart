@@ -1,8 +1,10 @@
 name: tekartik_bootstrap_asset
 description: Bootstrap for dart
 version: 3.3.7
+publish_to: none
 environment:
-  sdk: '>=2.0.0-dev.63 <3.0.0'
+  sdk: '>=2.10.0 <3.0.0'
+
 dependencies:
   tekartik_jquery_asset:
     git:

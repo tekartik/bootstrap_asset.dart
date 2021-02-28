@@ -16,3 +16,4 @@ pubspec.lock
 
 # where download are stored
 /tmp
+/.dart_tool/
