@@ -20,13 +20,15 @@ jobs:
             dart: stable
           - os: ubuntu-latest
             dart: beta
+          - os: ubuntu-latest
+            dart: dev
           - os: windows-latest
             dart: stable
           - os: macos-latest
             dart: stable
     steps:
-      - uses: actions/checkout@v4
-      - uses: dart-lang/setup-dart@v1.4
+      - uses: actions/checkout@v2
+      - uses: dart-lang/setup-dart@v1.3
         with:
           sdk: ${{ matrix.dart }}
       - run: dart --version
