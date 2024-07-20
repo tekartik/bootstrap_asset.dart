@@ -13,7 +13,7 @@ dependencies:
     version: '>=3.1.1+1'
 
 dev_dependencies:
-  dev_test:
+  dev_build:
   tekartik_lints:
     git:
       url: https://github.com/tekartik/common.dart
