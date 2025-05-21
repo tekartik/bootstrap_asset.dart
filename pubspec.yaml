@@ -3,7 +3,7 @@ description: Bootstrap for dart
 version: 3.3.7
 publish_to: none
 environment:
-  sdk: ^3.5.0
+  sdk: ^3.7.0
 
 dependencies:
   tekartik_jquery_asset:
@@ -13,7 +13,7 @@ dependencies:
     version: '>=3.1.1+1'
 
 dev_dependencies:
-  dev_build:
+  dev_build: ">=1.1.2"
   tekartik_lints:
     git:
       url: https://github.com/tekartik/common.dart
