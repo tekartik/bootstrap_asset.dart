@@ -9,7 +9,6 @@ dependencies:
   tekartik_jquery_asset:
     git:
       url: https://github.com/tekartik/jquery_asset.dart
-      ref: dart3a
     version: '>=3.1.1+1'
 
 dev_dependencies:
@@ -17,7 +16,6 @@ dev_dependencies:
   tekartik_lints:
     git:
       url: https://github.com/tekartik/common.dart
-      ref: dart3a
       path: packages/lints
     version: '>=0.1.0'
 #dependency_overrides:
